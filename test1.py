@@ -42,6 +42,4 @@ VALUES(%s,%s,%s,INET_ATON(%s),INET_ATON(%s),%s,%s,%s)'''
         except:
             r.seek(-(reg_len-1),1)
             continue
-
 print("finished  input_num:{}".format(input_num))
-
