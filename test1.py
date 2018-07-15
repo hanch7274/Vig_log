@@ -9,7 +9,7 @@ cursor = db.cursor()
 #로그파일 binary타입으로 open
 r = open("G:\\firewall.log","rb")
 #넣은 로그 개수를 세기 위한 변수
-input_num = 0;
+input_num = 0
 #아래서부터 일정 크기(140h)만큼 읽어와서 정규표현식을 사용하여 데이터를 추출하고, 문자를 슬라이싱하여 리스트에 저장한다.
 while True:
     r_data = r.read(0x140)
